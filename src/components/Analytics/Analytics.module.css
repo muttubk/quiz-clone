@@ -1,0 +1,75 @@
+.container{
+    /* background-color: red; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.title{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #5076FF;
+}
+
+.analysisTable{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.headingRow th{
+    background-color: #5076FF;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 0.3rem 1rem;    
+}
+
+.dataRow td{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #000;
+    padding: 0.3rem 1rem;
+}
+
+.dataRow:nth-of-type(even){
+    background-color: #B3C4FF;
+}
+
+.headingRow th:first-child,
+.dataRow td:first-child{
+    border-radius: 8px 0 0 8px;
+}
+
+.headingRow th:last-child,
+.dataRow td:last-child{
+    border-radius: 0 8px 8px 0;
+}
+
+.editQuiz, .deleteQuiz, .shareQuiz{
+    width: 1.2rem;
+    cursor: pointer;
+}
+.deleteQuiz{
+    margin: 0 0.4rem;
+}
+
+.questionAnalysisLink{
+    color: #000;
+    font-size: 0.7rem;
+}
+
+
+.editQuizContainer{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.81);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

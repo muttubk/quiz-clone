@@ -1,0 +1,52 @@
+.container{
+    width: 12rem;
+    height: 100vh;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0.5rem;
+}
+
+.menuOptions{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    /* background-color: red; */
+    padding: 0.2rem;
+    width: 100%;
+}
+
+.menuOptions button{
+    background: #fff;
+    border: none;
+    color: #474444;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: left;
+    padding: 0.2rem;
+    padding-left: 2.1rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.logoutBtnContainer{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.7rem;
+    border-top: 0.1rem solid #000;
+}
+.logoutBtn{
+    background-color: #fff;
+    border: none;
+    color: #474444;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0.2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}

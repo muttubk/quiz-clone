@@ -1,0 +1,48 @@
+.container{
+    width: 100%;
+}
+
+.topContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.quiz, .questions, .impressions{
+    background-color: #fff;
+    width: 14rem;
+    /* height: 7rem; */
+    border-radius: 6px;
+    padding: 0.7rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.numberSpan{
+    font-size: 2.2rem;
+}
+
+.quiz{
+    color: #FF5D01;
+}
+.questions{
+    color: #60B84B;
+}
+.impressions{
+    color: #5076FF;
+}
+
+.trendingQuizsContainer{
+    margin-top: 4rem;
+}
+.trendingQuizsTitle{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #474444;
+}
+.trendingQuizs{
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}

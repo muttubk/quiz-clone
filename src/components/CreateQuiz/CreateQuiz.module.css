@@ -1,0 +1,76 @@
+.container{
+    width: 35rem;
+    /* height: 20rem; */
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 3rem;
+}
+
+.quizNameInput{
+    border: none;
+    border-radius: 6px;
+    padding: 1rem;
+    width: 100%;
+    background: #FFF;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+}
+.quizNameInput::placeholder{
+    color: #9F9F9F;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.quizTypeButtons{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #9F9F9F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.qnaTypeBtn, .pollTypeBtn{
+    width: 7rem;
+    padding: 0.2rem;
+    border-radius: 4px;
+    border: none;
+    background: #FFF;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #9F9F9F;
+    cursor: pointer;
+}
+
+.cancelContinueBtns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+
+.cancelBtn, .continueBtn{
+    width: 12rem;
+    padding: 0.2rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.cancelBtn{
+    background: #FFF;
+    color: #474444;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+}
+.continueBtn{
+    background-color: #60B84B;
+    color: #fff;
+}
+
+.errorMessage{
+    color: red;
+    font-size: 0.7rem;
+    font-weight: 400;
+}

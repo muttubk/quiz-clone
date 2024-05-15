@@ -1,0 +1,12 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #EDEDED;
+    display: flex;
+}
+
+.dashboardContainer{
+    width: calc(100% - 12rem);
+    padding: 4.5rem 3.5rem;
+    overflow-y: scroll;
+}

@@ -1,0 +1,178 @@
+.container{
+    width: 35rem;
+    height: 28rem;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem 3rem;
+    position: absolute;
+}
+
+.questionNumbersContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.questionNumbers{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.questionNumber{
+    background-color: #fff;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #9F9F9F;
+    position: relative;
+}
+
+.addQuestionBtn{
+    background-color: #fff;
+    border: none;
+    /* width: 2.5rem; */
+    height: 2.5rem;
+    font-size: 1.9rem;
+    color: #969696;
+    cursor: pointer;
+}
+
+.deleteQuestion{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0.7rem;
+    color: #474444;
+    cursor: pointer;
+}
+
+.instructionText{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #9F9F9F;
+}
+
+.question{
+    width: 100%;
+    border-radius: 6px;
+    background: #FFF;
+    padding: 0.3rem 0.5rem;
+    border: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 1rem;
+}
+.question::placeholder{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #9F9F9F;
+}
+
+.optionTypesContainer{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #9F9F9F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.optionTypesContainer input{
+    accent-color: #353434;
+}
+
+.optionAndTimerContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.optionsContainer{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    position: relative;
+}
+.option{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.optionRadioBtn{
+    accent-color: #54a141;
+    position: absolute;
+    left: -1.3rem;
+}
+.optionInput{
+    /* width: 85%; */
+    width: 10rem;
+    padding: 0.3rem 0.5rem;
+    border: none;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+}
+.deleteOptionIcon{
+    width: 1.1rem;
+    position: absolute;
+    right: -1.5rem;
+}
+.addOptionBtn{
+    /* width: 85%; */
+    align-self: center;
+    width: 10rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #9F9F9F;
+    padding: 0.3rem;
+    border-radius: 6px;
+    border: none;
+    background: #FFF;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.timerContainer{
+    align-self: flex-end;
+}
+
+.cancelCreateBtns{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.cancelBtn, .createBtn{
+    width: 12rem;
+    border: none;
+    border-radius: 6px;
+    padding: 0.3rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.cancelBtn{
+    background: #FFF;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+    color: #474444;
+}
+.createBtn{
+    background: #60B84B;
+    color: #fff;
+}
+
+
+.errorMessage{
+    color: red;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+.errorBorder{
+    border: 1.5px solid red;
+}

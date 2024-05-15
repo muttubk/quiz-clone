@@ -1,0 +1,59 @@
+.container{
+    width: 50%;
+    height: 16rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form div{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 2fr;
+    position: relative;
+}
+
+.form label{
+    /* width: 200px; */
+    text-align: right;
+    color: #474444;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.form input{
+    /* flex-grow: 1; */
+    background-color: #F4F4F4;
+    border: 1.5px solid #F4F4F4;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 0.85rem;
+    padding: 0.3rem;
+    outline: none;
+}
+/* .form input::placeholder{
+    color: #D60000;
+    font-size: 0.7rem;
+    font-weight: 500;
+} */
+.errorMessage{
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #D60000;
+    position: absolute;
+    bottom: -1.2rem;
+    right: 0;
+}
+
+.signupBtn, .loginBtn{
+    width: 10rem;
+    background-color: #A9BCFF;
+    border: none;
+    padding: 0.15rem;
+    color: #474444;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border-radius: 5px;
+    align-self: center;
+}

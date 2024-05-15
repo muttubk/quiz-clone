@@ -1,0 +1,36 @@
+.container{
+    background-color: #FFFFFF;
+    width: 11rem;
+    /* height: 3.5rem; */
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+}
+
+.nameAndImpressionContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quizName{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #474444;
+}
+
+.impressionsContainer{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+.impressions{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #FF5D01;
+}
+
+.createdDate{
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #60B84B;
+}
